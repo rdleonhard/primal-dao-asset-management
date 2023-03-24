@@ -1,0 +1,53 @@
+/* Color scheme */
+:root {
+    --primary-color: #34495e;
+    --secondary-color: #2c3e50;
+    --accent-color: #f1c40f;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+    margin: 0;
+    background-color: var(--light-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.lead {
+    font-size: 1.3rem;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Form styles */
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+button:hover {
+    background-color: var(--accent-color-hover);
+    border-color: var(--accent-color-hover);
+}
